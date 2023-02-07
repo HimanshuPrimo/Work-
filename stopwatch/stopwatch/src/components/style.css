@@ -1,0 +1,58 @@
+input[type="text"] {
+    padding: 8px 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+button {
+    background: black;
+    border: none;
+    padding: 11px 30px;
+    color: white;
+    margin-left: 10px;
+}
+.hello {
+    display: flex;
+    justify-content: center;
+}
+.hello input[type="text"] {
+    margin-right: 10px;
+}
+.hello button{
+    padding:11px;
+    margin-bottom: 20px;
+}
+.title, .description{
+    text-transform: capitalize !important;
+    color: black;
+    margin-right: 10px;
+}
+.data {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 13px 20px;
+    background:pink;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 0px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: black; 
+    border-radius: 0px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: pink; 
+  }
